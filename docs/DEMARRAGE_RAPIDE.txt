@@ -1,0 +1,172 @@
+═══════════════════════════════════════════════════════════════════
+    🚀 PROJET SCRAPER - AGENT UNIVERSEL
+    Démarrage Ultra-Rapide (2 minutes)
+═══════════════════════════════════════════════════════════════════
+
+📦 CONTENU DU PROJET
+────────────────────
+
+scraper/
+├── agents/
+│   ├── __init__.py
+│   └── agent_universel.py        ← Agent principal (500 lignes)
+│
+├── main.py                        ← 7 exemples complets
+├── README.md                      ← Documentation complète
+├── GUIDE_INTEGRATION_PAS_A_PAS.md ← Guide étape par étape
+├── requirements.txt               ← Dépendances (aucune !)
+└── DEMARRAGE_RAPIDE.txt          ← Ce fichier
+
+
+⚡ OPTION 1 : TESTER IMMÉDIATEMENT
+──────────────────────────────────
+
+1. Ouvrir un terminal
+
+2. Aller dans le dossier :
+   cd scraper
+
+3. Lancer les exemples :
+   python main.py
+
+   ✅ Vous verrez 7 exemples s'exécuter automatiquement !
+
+
+⚡ OPTION 2 : INTÉGRER DANS VOTRE PROJET
+────────────────────────────────────────
+
+1. Copier le dossier agents/ dans VOTRE projet :
+   
+   cp -r agents/ /chemin/vers/votre_projet/
+
+2. Dans votre code Python, importer :
+
+   from agents import AgentProduitUniversel
+
+3. Utiliser (3 lignes !) :
+
+   agent = AgentProduitUniversel(type_produit="smartphone")
+   agent.ajouter_produits_depuis_dict(vos_produits)
+   top = agent.obtenir_top(n=3, budget_max=500)
+
+4. C'est tout ! ✅
+
+
+⚡ OPTION 3 : FONCTION ULTRA-SIMPLE
+───────────────────────────────────
+
+Si vous voulez juste analyser rapidement :
+
+   from agents import analyser_produits
+   
+   resultats = analyser_produits(
+       produits_data=vos_produits,
+       budget_max=500
+   )
+   
+   print(resultats['meilleur_produit'])
+
+FINI ! 🎉
+
+
+📖 DOCUMENTATION
+────────────────
+
+1. README.md
+   → Documentation complète avec tous les exemples
+
+2. GUIDE_INTEGRATION_PAS_A_PAS.md
+   → Guide détaillé étape par étape
+
+3. main.py
+   → 7 exemples concrets et commentés
+
+4. Code dans agents/agent_universel.py
+   → Code complet avec commentaires
+
+
+🎯 CAS D'USAGE
+──────────────
+
+✅ Scraping + Analyse automatique
+✅ Comparateur de prix multi-sites
+✅ Surveillance de prix quotidienne
+✅ Recommandations personnalisées
+✅ API de recommandations
+✅ Bot Telegram/Discord
+✅ Dashboard avec meilleurs produits
+
+
+💡 EXEMPLES RAPIDES
+───────────────────
+
+# Exemple 1 : Basique
+agent = AgentProduitUniversel(type_produit="smartphone")
+agent.ajouter_produit(nom="iPhone 15", marque="Apple", prix=999)
+meilleur = agent.obtenir_top(n=1)[0]
+print(f"Meilleur : {meilleur.nom}")
+
+# Exemple 2 : Avec vos données scrapées
+produits = [
+    {'nom': 'Produit A', 'marque': 'Samsung', 'prix': 299},
+    {'nom': 'Produit B', 'marque': 'LG', 'prix': 399}
+]
+agent = AgentProduitUniversel(type_produit="TV")
+agent.ajouter_produits_depuis_dict(produits)
+rapport = agent.generer_rapport_texte(budget_max=400)
+print(rapport)
+
+# Exemple 3 : Fonction réutilisable
+def analyser(produits, budget):
+    agent = AgentProduitUniversel(type_produit="produit")
+    agent.ajouter_produits_depuis_dict(produits)
+    return agent.obtenir_top(n=3, budget_max=budget)
+
+top_3 = analyser(mes_produits, 500)
+
+
+✅ CHECKLIST
+────────────
+
+□ Projet téléchargé
+□ Python 3.7+ installé (vérifier : python --version)
+□ Dossier agents/ dans votre projet
+□ Import testé : from agents import AgentProduitUniversel
+□ Exemple lancé avec succès
+
+
+🆘 PROBLÈMES ?
+──────────────
+
+1. ModuleNotFoundError
+   → Vérifiez que agents/ est bien dans votre projet
+
+2. Python < 3.7
+   → Mettez à jour Python (dataclasses requis)
+
+3. Scores identiques
+   → Ajoutez note et nb_avis à vos produits
+
+
+📞 AIDE
+───────
+
+Consultez dans l'ordre :
+1. DEMARRAGE_RAPIDE.txt (ce fichier)
+2. README.md
+3. GUIDE_INTEGRATION_PAS_A_PAS.md
+4. main.py (exemples commentés)
+
+
+🎉 BON SCRAPING !
+─────────────────
+
+Vous êtes prêt ! Lancez :
+python main.py
+
+Et adaptez les exemples à VOS besoins ! 🚀
+
+
+═══════════════════════════════════════════════════════════════════
+Créé avec ❤️ par Claude | 2026-02-08
+═══════════════════════════════════════════════════════════════════

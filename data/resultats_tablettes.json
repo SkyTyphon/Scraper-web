@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "type_produit": "tablette",
+    "date": "2026-02-09T01:13:50.626695",
+    "budget_max": 900
+  },
+  "statistiques": {
+    "nb_produits": 4,
+    "prix_moyen": 899.0,
+    "prix_min": 699,
+    "prix_max": 1099,
+    "note_moyenne": 4.65,
+    "score_moyen": 57.2,
+    "marques": [
+      "Microsoft",
+      "Apple",
+      "Samsung"
+    ],
+    "nb_marques": 3
+  },
+  "top_produits": [
+    {
+      "nom": "iPad Air",
+      "marque": "Apple",
+      "prix": 699,
+      "note": 4.7,
+      "nb_avis": 2500,
+      "score_qualite_prix": 57.6,
+      "categorie_prix": "👑 Premium",
+      "caracteristiques": [],
+      "url": "",
+      "source": "",
+      "stock": true,
+      "extra": {}
+    },
+    {
+      "nom": "Galaxy Tab S9",
+      "marque": "Samsung",
+      "prix": 799,
+      "note": 4.6,
+      "nb_avis": 1200,
+      "score_qualite_prix": 56.8,
+      "categorie_prix": "👑 Premium",
+      "caracteristiques": [],
+      "url": "",
+      "source": "",
+      "stock": true,
+      "extra": {}
+    }
+  ],
+  "tous_produits": [
+    {
+      "nom": "iPad Air",
+      "marque": "Apple",
+      "prix": 699,
+      "note": 4.7,
+      "nb_avis": 2500,
+      "score_qualite_prix": 57.6,
+      "categorie_prix": "👑 Premium",
+      "caracteristiques": [],
+      "url": "",
+      "source": "",
+      "stock": true,
+      "extra": {}
+    },
+    {
+      "nom": "iPad Pro 11\"",
+      "marque": "Apple",
+      "prix": 999,
+      "note": 4.8,
+      "nb_avis": 1800,
+      "score_qualite_prix": 58.4,
+      "categorie_prix": "👑 Premium",
+      "caracteristiques": [],
+      "url": "",
+      "source": "",
+      "stock": true,
+      "extra": {}
+    },
+    {
+      "nom": "Galaxy Tab S9",
+      "marque": "Samsung",
+      "prix": 799,
+      "note": 4.6,
+      "nb_avis": 1200,
+      "score_qualite_prix": 56.8,
+      "categorie_prix": "👑 Premium",
+      "caracteristiques": [],
+      "url": "",
+      "source": "",
+      "stock": true,
+      "extra": {}
+    },
+    {
+      "nom": "Surface Pro 9",
+      "marque": "Microsoft",
+      "prix": 1099,
+      "note": 4.5,
+      "nb_avis": 900,
+      "score_qualite_prix": 56.0,
+      "categorie_prix": "👑 Premium",
+      "caracteristiques": [],
+      "url": "",
+      "source": "",
+      "stock": true,
+      "extra": {}
+    }
+  ]
+}

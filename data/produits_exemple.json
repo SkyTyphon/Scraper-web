@@ -1,0 +1,23 @@
+[
+  {
+    "nom": "TV OLED 55\"",
+    "marque": "LG",
+    "prix": 1299,
+    "note": 4.7,
+    "nb_avis": 890
+  },
+  {
+    "nom": "TV QLED 55\"",
+    "marque": "Samsung",
+    "prix": 1199,
+    "note": 4.6,
+    "nb_avis": 1200
+  },
+  {
+    "nom": "Bravia XR 55\"",
+    "marque": "Sony",
+    "prix": 1499,
+    "note": 4.8,
+    "nb_avis": 650
+  }
+]

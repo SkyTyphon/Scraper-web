@@ -1,0 +1,13 @@
+# Requirements pour le projet scraper
+# Aucune dépendance externe requise pour l'agent !
+# L'agent utilise uniquement Python standard library
+
+# Python >= 3.7 requis (pour dataclasses)
+
+# Optionnel : Si vous utilisez ces outils dans votre scraper
+# requests>=2.31.0        # Pour scraping HTTP
+# beautifulsoup4>=4.12.0  # Pour parsing HTML
+# scrapy>=2.11.0          # Pour scraping avancé
+# flask>=2.3.0            # Pour API
+# fastapi>=0.104.0        # Pour API moderne
+# sqlalchemy>=2.0.0       # Pour BDD
