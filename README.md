@@ -1,3 +1,5 @@
+!!!!!! Ceci est mon premier projet !!!!!
+
 # 🚀 PROJET SCRAPER COMPLET
 
 Agent universel d'analyse et de recommandation de produits.
