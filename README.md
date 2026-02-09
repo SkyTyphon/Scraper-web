@@ -1,6 +1,6 @@
 # 🚀 PROJET SCRAPER COMPLET
 
-Projet combinant un **scanner réseau** et un **agent universel d'analyse de produits**.
+Agent universel d'analyse et de recommandation de produits.
 
 ---
 
@@ -48,13 +48,6 @@ meilleur = agent.obtenir_top(n=1)[0]
 ```
 
 **Documentation :** Voir `docs/README.md`
-
-### 2. **Scanner Réseau** (optionnel)
-
-Si vous avez aussi le fichier `scanner.py`, vous pouvez scanner votre réseau local :
-- Détection d'appareils (ARP, nmap, netdiscover)
-- Export vers LibreNMS et phpIPAM
-- Envoi de rapports par email
 
 ---
 
@@ -117,19 +110,11 @@ print(resultats['meilleur_produit'])
 ## 🔧 INSTALLATION
 
 ### Prérequis
-- Python 3.7+ (pour l'agent)
-- Python 3.6+ (pour le scanner réseau)
+- Python 3.7+
 
-### Agent Universel
 ```bash
 # Aucune dépendance externe requise !
 # L'agent utilise uniquement la bibliothèque standard Python
-```
-
-### Scanner Réseau (optionnel)
-```bash
-# Si vous utilisez le scanner réseau :
-pip install requests beautifulsoup4
 ```
 
 ---
